@@ -28,7 +28,7 @@ const session_tbl = sqliteTable('person_session', {
 	person_id: text('person_id')
 		.notNull()
 		.references(()=>person_tbl.id),
-	expire_dts: integer('expire_dts').notNull(),
+	expire_dts: integer('expire_dts', { mode: 'timestamp_ms' }).notNull(),
 	country: text('country')
 })
 const db = drizzle(sqliteDB)
