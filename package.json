@@ -1,0 +1,54 @@
+{
+	"name": "@persontric/adapter-drizzle",
+	"version": "0.0.0",
+	"description": "Drizzle ORM adapter for Persontric",
+	"keywords": [
+		"persontric",
+		"auth",
+		"authentication",
+		"adapter",
+		"drizzle",
+		"drizzle-orm"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/persontric/adapter-drizzle"
+	},
+	"author": "Brian Takita",
+	"license": "Apache-2.0",
+	"types": "index.ts",
+	"type": "module",
+	"exports": {
+		".": "./index.ts",
+		"./package.json": "./package.json"
+	},
+	"files": [
+		"*.md",
+		"*.js",
+		"*.json",
+		"*.ts",
+		"driver"
+	],
+	"scripts": {
+		"build": "shx rm -rf ./dist/* && tsc",
+		"auri.build": "pnpm build",
+		"test.mysql": "tsx test.mysql/index.ts",
+		"test.postgresql": "tsx test.postgresql/index.ts",
+		"test.sqlite": "tsx test.sqlite/index.ts"
+	},
+	"devDependencies": {
+		"@persontric/adapter-test": "workspace:*",
+		"@types/better-sqlite3": "^7.6.9",
+		"@types/pg": "^8.11.0",
+		"better-sqlite3": "^9.4.3",
+		"dotenv": "^16.4.5",
+		"drizzle-orm": "^0.29.4",
+		"persontric": "workspace:*",
+		"mysql2": "^3.9.1",
+		"pg": "^8.11.3",
+		"tsx": "^4.7.1"
+	},
+	"peerDependencies": {
+		"persontric": "^0.0.0"
+	}
+}

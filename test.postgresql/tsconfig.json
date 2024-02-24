@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"target": "esnext",
+		"moduleResolution": "nodenext",
+		"moduleDetection": "force",
+		"noEmit": true,
+		"composite": true,
+		"strict": true,
+		"downlevelIteration": true,
+		"skipLibCheck": true,
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true,
+		"esModuleInterop": true,
+		"allowJs": true,
+		"types": [
+			"bun-types" // add Bun global
+		],
+		"rootDir": ".."
+	},
+	"include": [
+		"../driver/*",
+		"index.ts"
+	]
+}
