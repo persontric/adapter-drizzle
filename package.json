@@ -39,12 +39,12 @@
 	"devDependencies": {
 		"@persontric/adapter-test": "workspace:*",
 		"@types/better-sqlite3": "^7.6.9",
-		"@types/pg": "^8.11.1",
+		"@types/pg": "^8.11.2",
 		"better-sqlite3": "^9.4.3",
 		"dotenv": "^16.4.5",
 		"drizzle-orm": "^0.29.4",
 		"persontric": "workspace:*",
-		"mysql2": "^3.9.1",
+		"mysql2": "^3.9.2",
 		"pg": "^8.11.3",
 		"tsx": "^4.7.1"
 	},
