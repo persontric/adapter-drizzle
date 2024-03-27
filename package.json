@@ -42,7 +42,7 @@
 		"@types/pg": "^8.11.4",
 		"better-sqlite3": "^9.4.3",
 		"dotenv": "^16.4.5",
-		"drizzle-orm": "^0.30.4",
+		"drizzle-orm": "^0.30.5",
 		"persontric": "workspace:*",
 		"mysql2": "^3.9.3",
 		"pg": "^8.11.3",
