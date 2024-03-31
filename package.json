@@ -45,7 +45,7 @@
 		"drizzle-orm": "^0.30.6",
 		"persontric": "workspace:*",
 		"mysql2": "^3.9.3",
-		"pg": "^8.11.3",
+		"pg": "^8.11.4",
 		"tsx": "^4.7.1"
 	},
 	"peerDependencies": {
