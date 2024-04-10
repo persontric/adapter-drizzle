@@ -40,7 +40,7 @@
 		"@persontric/adapter-test": "workspace:*",
 		"@types/better-sqlite3": "^7.6.9",
 		"@types/pg": "^8.11.5",
-		"better-sqlite3": "^9.4.5",
+		"better-sqlite3": "^9.5.0",
 		"dotenv": "^16.4.5",
 		"drizzle-orm": "^0.30.7",
 		"persontric": "workspace:*",
