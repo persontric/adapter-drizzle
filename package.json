@@ -42,11 +42,11 @@
 		"@types/pg": "^8.11.5",
 		"better-sqlite3": "^9.6.0",
 		"dotenv": "^16.4.5",
-		"drizzle-orm": "^0.30.9",
+		"drizzle-orm": "^0.30.10",
 		"persontric": "workspace:*",
 		"mysql2": "^3.9.7",
 		"pg": "^8.11.5",
-		"tsx": "^4.8.0"
+		"tsx": "^4.8.2"
 	},
 	"peerDependencies": {
 		"persontric": "^0.0.0"
