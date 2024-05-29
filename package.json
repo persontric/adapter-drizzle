@@ -44,7 +44,7 @@
 		"dotenv": "^16.4.5",
 		"drizzle-orm": "^0.30.10",
 		"persontric": "workspace:*",
-		"mysql2": "^3.9.8",
+		"mysql2": "^3.9.9",
 		"pg": "^8.11.5",
 		"tsx": "^4.11.0"
 	},
