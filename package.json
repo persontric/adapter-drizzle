@@ -40,11 +40,11 @@
 		"@persontric/adapter-test": "workspace:*",
 		"@types/better-sqlite3": "^7.6.10",
 		"@types/pg": "^8.11.6",
-		"better-sqlite3": "^10.0.0",
+		"better-sqlite3": "^11.0.0",
 		"dotenv": "^16.4.5",
 		"drizzle-orm": "^0.30.10",
 		"persontric": "workspace:*",
-		"mysql2": "^3.9.9",
+		"mysql2": "^3.10.0",
 		"pg": "^8.11.5",
 		"tsx": "^4.11.0"
 	},
